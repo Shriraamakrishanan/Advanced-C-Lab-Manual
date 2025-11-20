@@ -1,6 +1,4 @@
-
-
-## EXP NO :26 C PROGRAM TO DISPLAY STACK ELEMENTS USING LINKED LIST.
+# EXP NO :26 C PROGRAM TO DISPLAY STACK ELEMENTS USING LINKED LIST.
 ## Aim:
 To write a C program to display stack elements using linked list.
 
@@ -14,7 +12,7 @@ To write a C program to display stack elements using linked list.
 7.	Move to the next node using the next pointer.
  
 ## Program:
-```
+```c
 struct Node
 {
     int data;
@@ -55,7 +53,7 @@ To write a C program to pop an element from the given stack using liked list.
 4.	Set head to point to the next node in the stack.
  
 ## Program:
-```
+```c
 struct Node
 {
     int data;
@@ -98,7 +96,7 @@ To write a C program to display queue elements using linked list.
 5.	End the display function.
  
 ## Program:
-```
+```c
 struct Node
 {
     char data;
@@ -148,7 +146,7 @@ To write a C program to insert elements in queue using linked list
 6.	End of Enqueue Operation
  
 ## Program:
-```
+```c
 struct Node
 {
    int data;
@@ -198,7 +196,7 @@ o	If the queue is empty (i.e., the front pointer is NULL), return an error or a 
 o	If the queue is not empty, return the data stored in the front node of the linked list (i.e., the element at the head of the queue).
 
 ## Program:
-```
+```c
 struct Node
 {
    char data;
