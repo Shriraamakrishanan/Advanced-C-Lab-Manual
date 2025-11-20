@@ -12,7 +12,7 @@ To write a C program to create a function to find the greatest number
 5.	Call the max_of_four function with the input integers and store the result in the greater variable
  
 ## Program:
-```
+```c
 #include<stdio.h>
 int max_of_four(int a,int b,int c,int d)
 {
@@ -70,7 +70,7 @@ To write a C program to print the maximum values for the AND, OR and XOR compari
 7.	Call the calculate_the_max function with input values.
  
 ## Program:
-```
+```c
 #include<stdio.h>
 void calculate_the_max(int n,int k)
 {
@@ -129,7 +129,7 @@ To write a C program to write the logic for the requests
 5.	Use a for loop to iterate over the queries.
  
 ## Program:
-```
+```c
 #include<stdio.h> 
 int main()
 {
@@ -196,7 +196,7 @@ To write a C program print the sum of the integers in the array.
 
 
 ## Program:
-```
+```c
 #include<stdio.h>
 int main()
 {
@@ -244,7 +244,7 @@ o	If a character is not a space, it may belong to a word. If it's the first non-
 
 
 ## Program:
-```
+```c
 #include<stdio.h>
 #include<string.h>
 int main()
