@@ -15,7 +15,7 @@ To write a C program print the lowercase English word corresponding to the numbe
 4.	Exit the program.
  
 ## Program:
-```
+```c
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -98,7 +98,7 @@ Algorithm:
  
 ## Program:
 
-```
+```c
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -146,7 +146,7 @@ Free the memory allocated for each string in s Free the memory allocated for s
 7.	End
  
 ## Program:
-```
+```c
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -223,7 +223,7 @@ To write a C program to print a pattern of numbers from 1 to n as shown below.
 7.	End
  
 ## Program:
-```
+```c
 #include<stdio.h> 
 int main()
 {
@@ -271,7 +271,7 @@ o	Call the square() function and display the result.
 
 ## Program:
 
-```
+```c
 #include <stdio.h>
 void square();
 int main()
