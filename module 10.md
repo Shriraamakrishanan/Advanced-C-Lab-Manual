@@ -9,7 +9,7 @@ To write a C program to search a given element in the given linked list.
 4.	Call the search function and perform other linked list operations as needed.
  
 ## Program:
-```
+```c
 struct Node
 {
    struct Node *next;
@@ -64,7 +64,7 @@ To write a C program to insert a node in a linked list.
  
 ## Program:
 
-```
+```c
 struct Node
 {
    char data;
@@ -114,7 +114,7 @@ To write a C program to traverse a doubly linked list.
  
 ## Program:
 
-```
+```c
 struct Node
 {
    struct Node *prev;
@@ -153,7 +153,7 @@ To write a C program to insert an element in doubly linked list
 5.	Set the new node's prev pointer to the last node and update the last node's next pointer to the new node.
  
 ## Program:
-```
+```c
 struct Node
 {
    struct Node *prev;
@@ -220,7 +220,7 @@ o	If the element is not found in any node, print a message indicating the elemen
 
 ## Program:
 
-```
+```c
 struct Node
 {
     char data; 
