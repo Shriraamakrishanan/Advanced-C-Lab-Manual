@@ -12,7 +12,7 @@ To write a C program to display stack elements using an array.
 7.	Use the display function to visualize the stack's contents
  
 ## Program:
-```
+```c
 int stack[40],top,i;
 void display()
 {
@@ -40,7 +40,7 @@ To create a C program to push the given element in to a stack using array.
 4.	Call the push function as needed.
  
 ## Program:
-```
+```c
 int size=3,top=1;
 float stack[40];
 void push (float data)
@@ -75,7 +75,7 @@ To write a C program to display queue elements using array
 4.	Call the display function and perform other queue operations as needed.
  
 ## Program:
-```
+```c
 int queue[50], rear, front,i;
 void display()
 {
@@ -113,7 +113,7 @@ To write a C program to insert elements in queue using array.
 4.	Call the enqueue function as needed.
 
 ## Program:
-```
+```c
 int size=4, rear=-1, front=-1;
 float queue[50];
 void enqueue(float data)
@@ -155,7 +155,7 @@ o	Increment the front pointer by 1 to remove the element and point to the next e
 o	After deletion, check if the front pointer has passed the rear pointer (front > rear). If this is true, reset both front and rear to -1, indicating that the queue is now empty.
 4.	End the Function.
 ## Program:
-```
+```c
 int front, rear;
 void dequeue()
 {
